@@ -19,4 +19,14 @@ Bu proje, uçtan uca bir makine öğrenmesi pipeline'ı oluşturmayı hedefler:
   2. Kredi ve bankacılık bilgileri toplanıyor
   3. Model, müşteriyi "Low / Moderate / High" kredi skor kategorisine atıyor
   4. Risk departmanı ve sistem bu bilgiye göre karar veriyor
-- KPI: Modelin doğruluğu, yanlış sınıflandırmanın maliyeti, operasyonel hız
+
+  ## İçerikleri Görmek İçin Master Branch’e Geçin
+
+Bu repoda içerikler `master` branch’te bulunuyor. `main` branch üzerinden bakıyorsanız göremeyebilirsiniz.  
+
+Master branch’e geçmek için:
+
+```bash
+git fetch origin
+git checkout master
+
