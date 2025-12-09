@@ -1,4 +1,4 @@
-# Credit Score Classification Project
+# FinRisk-AI / Credit Score Classification
 
 ## 1. Problem Definition
 The objective of this project is to build a machine learning model to classify customers' credit scores into three categories: **Good, Standard, and Poor**. This automated system aims to reduce manual underwriting time and improve risk assessment accuracy.
@@ -72,6 +72,7 @@ FinRisk-AI/
 │
 └── OIG2.png
 ```
+<img width="1862" height="853" alt="image" src="https://github.com/user-attachments/assets/0e259956-69d9-4c82-99d3-0ad0fbb619a3" />
 
 
 ## 📌 To-Do: Business & Model Improvements
