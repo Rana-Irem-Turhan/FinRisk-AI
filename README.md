@@ -92,18 +92,25 @@ FinRisk-AI/
 <img width="1862" height="853" alt="image" src="https://github.com/user-attachments/assets/0e259956-69d9-4c82-99d3-0ad0fbb619a3" />
 
 
-## 📌 To-Do: Business & Model Improvements
+## 7. 🗃️ Veri Kaynağı (Data Source)
+Bu projede kullanılan kredi skoru sınıflandırma veri seti Kaggle'dan alınmıştır:
 
+* **Veri Seti:** [Credit Score Classification Dataset](https://www.kaggle.com/datasets/parisrohan/credit-score-classification)
+
+## 8. 📝 Yapılacaklar (To-Do List)
+### Model Improvements
+- [ ] **Refresh UI/UX**: Enhance the look and feel of the Gradio/Streamlit app for a professional presentation (Uygulamanın görsel arayüzünü profesyonel bir sunum için iyileştirme)
+- [ ] **Write a Medium Article**: Document the project, methodology, and results for broader technical audience (Projenin metodolojisini ve sonuçlarını açıklayan bir Medium yazısı hazırlama)
+- [ ] **Cleanup and Refactor Repo**: Ensure consistent naming conventions, detailed docstrings, and a clean code base (Tutarlı isimlendirme ve detaylı dokümantasyon ile repo düzenini sağlama)
+- [ ] Add **automated unit** tests for core inference logic (Çıkarım mantığı için otomatik birim testleri ekleme)
+
+## Business Improvements
 - [ ] Validate the final model on a separate holdout test set (Nihai modeli ayrı bir test seti üzerinde doğrulama)
 - [ ] Set up model monitoring (monthly accuracy, drift in key features) (Model izleme sistemini kurma)
 - [ ] Define decision thresholds for each credit score class (Her sınıf için karar eşiklerini belirleme)
 - [ ] Add fallback rules for uncertain predictions (e.g., probability < 55%) (Belirsiz tahminler için yedek kurallar ekleme)
 - [ ] Build a feedback loop to compare predicted vs actual scores (Tahmin edilen ve gerçekleşen skorları karşılaştırmak için geri bildirim döngüsü oluşturma)
 - [ ] Document model limitations and train credit team on edge cases (Model sınırlamalarını belgeleyip kredi ekibini eğitme)
-- [ ] **Refresh UI/UX**: Enhance the look and feel of the Gradio/Streamlit app for a professional presentation (Uygulamanın görsel arayüzünü profesyonel bir sunum için iyileştirme)
-- [ ] **Write a Medium Article**: Document the project, methodology, and results for broader technical audience (Projenin metodolojisini ve sonuçlarını açıklayan bir Medium yazısı hazırlama)
-- [ ] **Cleanup and Refactor Repo**: Ensure consistent naming conventions, detailed docstrings, and a clean code base (Tutarlı isimlendirme ve detaylı dokümantasyon ile repo düzenini sağlama)
-- [ ] Add automated unit tests for core inference logic (Çıkarım mantığı için otomatik birim testleri ekleme)
 
 ## Contact
 *   **Author**: Rana Irem Turhan
