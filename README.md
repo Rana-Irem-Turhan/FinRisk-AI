@@ -3,11 +3,8 @@
 ## 1. Problem Definition
 The objective of this project is to build a machine learning model to classify customers' credit scores into three categories: **Good, Standard, and Poor**. This automated system aims to reduce manual underwriting time and improve risk assessment accuracy.
 
-## 2. Project Scope & Features
-*   **Data Cleaning**: Handled dirty data (special characters), missing values (imputation), and outliers.
-*   **Feature Engineering**: Created financial ratios, parsed credit history strings, and encoded categorical variables.
-*   **Modeling**: Compared Logistic Regression (Baseline) vs. Random Forest vs. XGBoost.
-*   **Deployment**: Modular pipeline (`src/`) with a Gradio web interface (`app.py`).
+## 2. Project Scope 
+
 
 ## 3. Deployment
 **Try the Model Instantly:**
@@ -16,7 +13,7 @@ The objective of this project is to build a machine learning model to classify c
 To run locally:
 1.  Install dependencies: `pip install -r requirements.txt`
 2.  Run the app: `python src/app.py`
-3.  Open browser at `http://localhost:7860`
+3.  Open browser at `http://localhost:8000`
 
 ## 4. Key Findings & Results
 *   **Baseline Score**: 60% Accuracy (Logistic Regression).
@@ -76,18 +73,6 @@ FinRisk-AI/
 └── OIG2.png
 ```
 
-## 6. Validation Strategy
-We used **Stratified K-Fold Cross-Validation** to ensure our model generalizes well across all credit score classes, preventing overfitting to the "Standard" class which is the majority.
-
-## 7. Pipeline Strategy
-*   **Preprocessing**: robust regex cleaning for dirty numerical columns.
-*   **Imputation**: Median imputation for skewed financial data.
-*   **Model**: XGBoost chosen for its ability to handle non-linear relationships and high performance on tabular data.
-
-## 8. Monitoring
-Post-deployment, we recommend monitoring:
-*   **Accuracy**: Check against ground truth labels after 3 months.
-*   **Data Drift**: Monitor `Annual_Income` and `Debt` distributions for shifts.
 
 ## 📌 To-Do: Business & Model Improvements
 
@@ -99,6 +84,6 @@ Post-deployment, we recommend monitoring:
 - [ ] Document model limitations and train credit team on edge cases 
 
 ## Contact
-*   **Author**: [Your Name]
-*   **Email**: [Your Email]
-*   **LinkedIn**: [Your Profile]
+*   **Author**: Rana Irem Turhan
+*   **GitHub**: github.com/Rana-Irem-Turhan
+*   **LinkedIn**: https://www.linkedin.com/in/irem-turhan/
