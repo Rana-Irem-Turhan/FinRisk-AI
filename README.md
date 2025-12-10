@@ -13,16 +13,16 @@ The objective of this project is to build a machine learning model to classify c
 * [Baseline Models](docs/02_baseline.md)
 * [Feature Engineering](docs/03_feature_engineering.md)
 * [Model Optimization](docs/04_model_optimization.md)
-* [Evaluation](docs/05_model_evaluation.md)
-
+* [Evaluation](docs/05_evaluation_report.md)
+  
 ### 3.2. 📓 Notebook'lar
 * [First Look 😺](notebooks/Analysis/00_Data_Preparation_Training.ipynb)
 * [First Bite 😋](notebooks/Modeling/02_baseline_model.ipynb)
 * [Check out the Feature](notebooks/Modeling/03_feature_engineering.ipynb)
 * [Baseline Models](notebooks/Modeling/03_feature_engineering.ipynb)
-* [Model Optimization](notebooks/Modeling/04_model_optimization.ipnyb)
-* [Evaluation](notebooks/Modeling/05_model_evaluation.md)
-* 
+* [Model Optimization](notebooks/Modeling/04_model_optimization.ipynb)
+* [Evaluation](notebooks/Modeling/05_model_evaluation.ipynb)
+  
 ## 4. Deployment
 **🌐 [Try the Model Instantly](https://huggingface.co/spaces/iremrit/FinRisk-AI)**
 
